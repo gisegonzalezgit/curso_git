@@ -1,0 +1,33 @@
+- crear un repositorio 
+- crear 4 archivos.py
+- cada uno con código 
+- crear una primer versión en master 
+- crear una rama nueva a partir de master y movernos a esa rama (git checkout -b / git Branch nombrerama git switch)
+- modifiquen 2 archivos
+- verificar su estado
+- crear una nueva versión 1re commit en rama
+- modificar 2 archivos distintos 
+- crear una nueva versión con sus mensajes 2 commit en rama
+- eliminar de 3 maneras distintas el ultimo commit 2do commit en rama
+- eliminar 2 commit, es decir volver al commit de la rama master
+
+- se paren en la rama master 
+- hacer merge de la rama origin a la rama destino
+- verificar los commits con git log --oneline
+
+
+- se paren en la rama master
+- crear una nueva rama
+- en la nueva rama crear dos commits, modificando archivo 1 y 2, agregando código real de ser posible mas de 5 líneas de código
+- con la rama limpia nos movemos a master
+- en master modificamos archivo 3 y 4 con las mismas indicaciones que antes, creamos un commit nuevo
+- con la rama limpia hacemos merge de destino a origen. 
+- verificamos el historial con git log --oneline
+
+
+
+- desde master realizamos una nueva rama
+- realizamos 3 commits en la nueva rama
+- nos movemos a master
+- realizamos un merge con git merge --squash y su commit 
+- revisamos git log --oneline de master

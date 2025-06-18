@@ -1,0 +1,5 @@
+print("archivo 2 ")
+print("archivo 2 modificado desde feature/modificacion")
+print("archivo B MODIFICADO DESDE feature/mergeo")
+print("nueva modificacion archivo B MODIFICADO DESDE feature/mergeo")
+print("realizando una nueva modificacion en el archivo B sobre squash")
