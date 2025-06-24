@@ -1,0 +1,126 @@
+- crear un repositorio 
+- crear 4 archivos.py
+- cada uno con código 
+- crear una primer versión en master 
+- crear una rama nueva a partir de master y movernos a esa rama (git checkout -b / git Branch nombrerama git switch)
+- modifiquen 2 archivos
+- verificar su estado
+- crear una nueva versión 1re commit en rama
+- modificar 2 archivos distintos 
+- crear una nueva versión con sus mensajes 2 commit en rama
+- eliminar de 3 maneras distintas el ultimo commit 2do commit en rama
+- eliminar 2 commit, es decir volver al commit de la rama master
+
+- se paren en la rama master 
+- hacer merge de la rama origin a la rama destino
+- verificar los commits con git log --oneline
+
+
+- se paren en la rama master
+- crear una nueva rama
+- en la nueva rama crear dos commits, modificando archivo 1 y 2, agregando código real de ser posible mas de 5 líneas de código
+- con la rama limpia nos movemos a master
+- en master modificamos archivo 3 y 4 con las mismas indicaciones que antes, creamos un commit nuevo
+- con la rama limpia hacemos merge de destino a origen. 
+- verificamos el historial con git log --oneline
+
+
+
+- desde master realizamos una nueva rama
+- realizamos 3 commits en la nueva rama
+- nos movemos a master
+- realizamos un merge con git merge --squash y su commit 
+- revisamos git log --oneline de master
+
+-crear una cuenta en GitHub (gmail)
+-crear un repositorio remoto en GitHub sin agregar ningún archivo y de manera publica
+-copiar el comando git remote add origin nombredeurl
+-pegar el comando en la consola de nuestro proyecto
+-analizar con git remote -v si quedo enlazado nuestro repositorio remoto al repositorio local
+
+
+-realizar git push origin master desde la rama master y llevar la rama local al repositorio remoto
+
+-git Branch para verificar las ramas locales
+-movernos a cada rama y hacer push de cada una de ellas
+
+-git init
+-git status
+-git add .
+-git commit -m 
+-git pull
+-git push
+-git checkout master 
+-git merge
+-git checkout -b 
+-git log
+-git Branch
+-git diff
+
+Lunes 23/6
+
+Git Flow 
+
+-crear un repositorio en GitHub
+-crear un repositorio en nuestro local
+-nuestro primer commit en master y relacionamos GitHub con local
+-subir master a GitHub
+-crearemos la rama develop desde master local(git pull--> git checkout -b )
+-subir develop a GitHub(git push)
+-crear una feature a partir de develop(git pull--> git checkout -b )
+-trabajar sobre feature
+-agregaremos los cambios al S.A.
+-haremos una versión local de feature
+-subir los cambios de la feature a GitHub
+-trabajar sobre feature nuevamente
+-agregaremos los cambios al S.A.
+-haremos una versión local de feature
+-subir los cambios de la feature a GitHub
+-movernos a develop localmente e incorporar cambios de GitHub sobre develop (git checkout -->git pull)
+-sobre develop mergeamos los cambios de feature
+-hacemos git push de develop a GitHub.
+-localmente sacamos una rama desde develop-->reléase/v1.10(git pull--> git checkout -b )
+-esa reléase la pusheamos a GitHub
+-nos movemos a master (git checkout -->git pull)
+-incorporamos los cambios de la reléase con un merge sobre master
+-nos movemos a develop(git checkout -->git pull)
+-incorporamos los cambios de la reléase con un merge sobre develop
+
+
+
+
+git init
+git add
+git commit -m 
+git status
+git checkout 
+git checkout -b 
+git reset 
+git pull
+git push 
+git fetch 
+git merge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
